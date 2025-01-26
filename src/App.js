@@ -1,10 +1,14 @@
 import './App.css';
+import FoodDisplay from './components/FoodDisplay/FoodDisplay';
+// import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-      <>
-        <h1>Hello</h1>
-      </>
+      <div className='app'>
+        <FoodDisplay/>
+
+      </div>
+    
   );
 }
 
